@@ -13,8 +13,8 @@ categories = ["data-structures", "cryptography::cryptocurrencies", ]
 [dependencies]
 educe = "0.6.0"
 ethereum_hashing = "0.7.0"
-ethereum_ssz = "0.7.0"
-ethereum_ssz_derive = "0.7.0"
+ethereum_ssz = { rev = "4a930fd689cd686b953edc44ee43b38857b20bd4", git = 'https://github.com/sigp/ethereum_ssz' }
+ethereum_ssz_derive = { rev = "4a930fd689cd686b953edc44ee43b38857b20bd4", git = 'https://github.com/sigp/ethereum_ssz' }
 itertools = "0.13.0"
 parking_lot = "0.12.1"
 rayon = "1.5.1"
